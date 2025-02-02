@@ -289,7 +289,7 @@ const page = () => {
             {/* about */}
             <TabsContent
               value="about"
-              className="w-[80vh] text-center xl:text-left"
+              className="w-full text-center xl:text-left"
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
