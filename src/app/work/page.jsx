@@ -4,16 +4,17 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+import Link from "next/link";
+import Image from "next/image";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
+
+// components
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-
-import Link from "next/link";
-import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
