@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs, SiSolidity } from "react-icons/si";
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum exercitationem commodi, dolorem eaque temporibus officiis provident adipisci delectus! Quos!",
+    "I am a passionate developer dedicated to creating innovative, decentralized, and user-friendly digital experiences. With expertise in Web3, blockchain research, and full-stack development, I thrive on solving complex problems and building impactful solutions.",
   info: [
     {
       fieldName: "Name",
@@ -73,7 +73,7 @@ const education = {
   icon: "/assets/resume/cap-graduation.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum exercitationem commodi, dolorem eaque temporibus officiis provident adipisci delectus! Quos!",
+    "Holding a degree in Computer Science, I have strengthened my technical expertise through online courses in full-stack development and blockchain applications. My education has equipped me with deep knowledge of decentralized technologies and modern software practices.",
   items: [
     {
       institution: "Dr Ambedkar Institute of Technology Infotech",
@@ -97,7 +97,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum exercitationem commodi, dolorem eaque temporibus officiis provident adipisci delectus! Quos!",
+    "Proficient in web technologies, I specialize in React,Javascript, TypeScript, Tailwind CSS, Node.js, and Web3 languages like Solidity and Rust. I am passionate about building scalable, decentralized, high-performance applications with seamless user experiences.",
   skillsList: [
     {
       icon: <FaHtml5 />,
@@ -184,7 +184,7 @@ const page = () => {
             <TabsContent value="experience" className="w-full rounded-md">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0 text-justify ">
+                <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0 text-justify">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px] ">
@@ -253,7 +253,7 @@ const page = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[680px] text-white/60 mx-auto xl:mx-0">
+                  <p className="max-w-[700px] text-white/60 mx-auto xl:mx-0 text-justify">
                     {skills.description}
                   </p>
                 </div>
@@ -293,7 +293,7 @@ const page = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[700px] text-white/60 mx-auto xl:mx-0 text-justify">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">

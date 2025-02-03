@@ -23,7 +23,7 @@ const projects = [
     category: "Blockchain",
     title: "NFTLanding",
     Description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus iure aut!",
+      "Built an artist portfolio for showcasing and minting NFTs on Solana, using Anchor & Rust for smart contracts and React & SCSS for the frontend. Integrated Solana Wallet Adapter for wallet management and @coral-xyz/anchor for client-side interactions.",
     stack: [
       { name: "React" },
       { name: "Scss" },
@@ -40,7 +40,7 @@ const projects = [
     category: "Frontend",
     title: "Supplysphere",
     Description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus iure aut!",
+      "Developed the frontend of Supply Sphere, a blockchain supply chain management platform, using React, TypeScript, and MUI. Integrated smart contracts with the frontend using the Wagmi library for real-time data tracking, overcoming challenges through documentation support.",
     stack: [
       { name: "ReactJS" },
       { name: "MUI" },
@@ -49,15 +49,15 @@ const projects = [
       { name: "WagmiJS" },
     ],
     image: "/assets/work/supplysphere.png",
-    live: "",
-    github: "https://github.com/maheepatel/NFT_Platform_On_Solana",
+    live: "https://drive.google.com/file/d/1ZF-rysvAdvCWHOu8wp8k02SOsHXk6UKV/view?usp=drive_link",
+    github: "https://github.com/orgs/SupplySphereSCM/repositories",
   },
   {
     num: "03",
     category: "Fullstack",
     title: "Scholar connect",
     Description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus iure aut!",
+      "Developed Scholar Connect, a platform for researchers to share publications, articles, and workshop details. Overcame challenges in handling forms for different sections by using Formik for efficient form management.",
     stack: [
       { name: "React" },
       { name: "CSS" },
@@ -75,7 +75,7 @@ const projects = [
     category: "Frontend",
     title: "Meme Generator",
     Description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus iure aut!",
+      "Built a fun Meme Generator using React JS, allowing users to create memes by selecting images or using the IMGFLIP API to generate funny images.",
     stack: [{ name: "React" }, { name: "css" }, { name: "IMGFlip API" }],
     image: "/assets/work/MemeGenerator.png",
     live: "https://resonant-alfajores-015d7f.netlify.app/",
