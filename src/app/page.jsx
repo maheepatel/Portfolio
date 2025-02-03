@@ -25,12 +25,18 @@ export default function Home() {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
+                asChild
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download Resume</span>
-                <FiDownload className="text-xl" />
+                <a
+                  href="https://drive.google.com/file/d/1d16gYt2JNyd3IH2-MyrwHifULB7bZc_y/view?usp=drive_link"
+                  target="_blank"
+                >
+                  <span>Download Resume</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
