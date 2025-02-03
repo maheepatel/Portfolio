@@ -9,25 +9,29 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet molestiae quia ipsam quaerat.",
+    description:
+      "Building responsive, user-friendly websites with modern technologies.",
     href: "",
   },
   {
     num: "02",
     title: "Blockchain Development",
-    description: "Lorem ipsum dolor sit amet molestiae quia ipsam quaerat.",
+    description:
+      "Developing secure decentralized applications on blockchain networks efficiently.",
     href: "",
   },
+  // {
+  //   num: "03",
+  //   title: "Ui Design",
+  //   description:
+  //     "Creating visually appealing, intuitive interfaces for seamless user experiences.",
+  //   href: "",
+  // },
   {
     num: "03",
-    title: "Ui Design",
-    description: "Lorem ipsum dolor sit amet molestiae quia ipsam quaerat.",
-    href: "",
-  },
-  {
-    num: "04",
     title: "Blockchain Research",
-    description: "Lorem ipsum dolor sit amet molestiae quia ipsam quaerat.",
+    description:
+      "Analyzing protocols, security, and trends in blockchain technology with great tools available.",
     href: "",
   },
 ];
